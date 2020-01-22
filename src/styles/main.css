@@ -33,7 +33,7 @@ p {
 .meme {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: contain;
+  background-size: cover;
   color: white;
   display: flex;
   flex-direction: column;
@@ -58,13 +58,13 @@ p {
   text-align: center;
   display: block;
   padding: 0.5rem;
-  margin: 0.7rem auto;
+  margin: 1.7rem auto;
   outline: blue;
 }
 
 .download-meme {
   display: block;
-  margin: 0.7rem auto;
+  margin: 1.7rem auto;
   padding: 0.5rem;
 }
 
@@ -92,18 +92,25 @@ input[type="color"]::-webkit-color-swatch {
   .meme-container {
     flex-direction: column;
     align-items: center;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     padding: 2.5rem 0;
   }
+  h1{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
   .meme-width{
-    width: 100%;
+    width: 90%;
   }
   .form-group input, label{
-    margin:  0 auto;
+    margin:  0.5rem auto;
     font-size: 1.2rem;
   }
   .meme{
     height: 15rem;
+  }
+  input[type="color"]{
+    margin: 0;
   }
 }

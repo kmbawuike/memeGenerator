@@ -46,7 +46,7 @@ class MemeGenerator extends Component {
     return (
       <Fragment>
         <h1 className="text-center">
-          Generate Your Meme Here
+          Meme Generator
         </h1>
         <section className="meme-container">
           <form className="meme-form">
